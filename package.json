@@ -1,0 +1,36 @@
+{
+  "name": "beygir",
+  "version": "0.2.0",
+  "description": "Simple worker queue implemention with combination of redis pub-sub and worker-farm",
+  "keywords": [
+    "worker queue",
+    "redis worker",
+    "node task queue",
+    "nodejs worker queue"
+  ],
+  "homepage": "https://github.com/ytlabs/beygir",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ytlabs/beygir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ytlabs/beygir/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kamil Sulubulut",
+    "url": "http://github.com/kokeksibir/"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "redis": "^0.12.1",
+    "worker-farm": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
